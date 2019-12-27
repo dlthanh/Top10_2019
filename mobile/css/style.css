@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+
+.emag-wrapper {
+    padding-top: 44px;
+    background-color: #000;
+}
+.emag-main {
+    background-color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.emag-main img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.emag-main p {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
