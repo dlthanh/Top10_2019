@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #e5e5e5; 
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1; 
+}
+
+img {
+    vertical-align: middle;
+}
+.emag-wrapper {
+    padding-top: 44px;
+    background-color: #000;
+    height: 100vh;
+}
+.emag-background {
+    background: url('../images/bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+#fullpage {
+    height: 100%;
+}
+.section {
+    height: 100%!important;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.emag-contain {
+    width: 85.625vw;
+    margin: 0 auto;
+}
+.emag-wrap {
+    padding-bottom: 48%;
+    position: relative;
+    width: 100%;
+}
+.emag-main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    display: flex;
+    display: -webkit-flex;
+}
+.emag-cover .emag-main {
+    background-color: transparent;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.emag-cover img {
+    width: 100%;
+}
+.emag-logo {
+    display: block;
+    /* margin-bottom: 4vw; */
+}
+.emag-credit {
+    display: block;
+    /* margin-top: 2.96875vw; */
+}
+.emag-sapo {
+    display: block;
+    margin-top: 4vw;
+}
+
+.emag-left {
+    min-width: 38.2603406%;
+    width: 38.2603406%;
+    height: 100%;
+}
+.emag-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.emag-right {
+    padding: 3.64583333vw;
+    padding-left: 5.625vw;
+    flex: 1;
+    overflow: hidden;
+    height: 100%;
+}
+.emag-right img {
+    width: 100%;
+}
+.emag-content {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    height: 52%;
+    overflow-y: scroll;
+    padding-right: 3.5vw;
+}
+.emag-content p {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1600px) {
+    .emag-content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
